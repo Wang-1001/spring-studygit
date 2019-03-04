@@ -1,4 +1,4 @@
-package com.spring.IoC;
+package com.spring.IoC.exmaple;
 
 public class MessagePrinter {
     final private MessageService service;

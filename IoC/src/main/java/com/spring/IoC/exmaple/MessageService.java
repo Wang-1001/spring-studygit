@@ -1,4 +1,4 @@
-package com.spring.IoC;
+package com.spring.IoC.exmaple;
 public interface MessageService {
     String getMessage();
 }

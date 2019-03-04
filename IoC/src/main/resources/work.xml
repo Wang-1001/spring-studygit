@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="car1" class="com.spring.IoC.work.Car">
+        <constructor-arg name="brand" value="奥迪A1"/>
+        <constructor-arg name="color" value="red"/>
+        <constructor-arg name="parameter" value="3.8T"/>
+    </bean>
+
+    <bean id="car2" class="com.spring.IoC.work.Car">
+        <constructor-arg name="brand" value="奥迪A5"/>
+        <constructor-arg name="color" value="black"/>
+        <constructor-arg name="parameter" value="4.8T"/>
+    </bean>
+
+    <bean id="car3" class="com.spring.IoC.work.Car">
+        <constructor-arg name="brand" value="奥迪A6"/>
+        <constructor-arg name="color" value="red"/>
+        <constructor-arg name="parameter" value="4.5"/>
+    </bean>
+
+    <bean id="boss1" class="com.spring.IoC.work.Boss">
+        <property name="name" value="马云"/>
+        <property name="company" value="阿里"/>
+        <property name="car" ref="car1"/>
+        <property name="hobby">
+            <list>
+                <value>baskball</value>
+                <value>football</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="boss2" class="com.spring.IoC.work.Boss">
+        <property name="name" value="马华腾"/>
+        <property name="company" value="腾讯"/>
+        <property name="car" ref="car2"/>
+        <property name="hobby">
+            <list>
+                <value>唱歌</value>
+                <value>跳舞</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="boss3" class="com.spring.IoC.work.Boss">
+        <property name="name" value="雷军"/>
+        <property name="company" value="小米"/>
+        <property name="car" ref="car3"/>
+        <property name="hobby">
+            <list>
+                <value>演讲</value>
+                <value>画画</value>
+            </list>
+        </property>
+    </bean>
+    <bean id="meeting" class="com.spring.IoC.work.Meeting">
+        <property name="theme" value="环保"/>
+        <property name="boss">
+            <list>
+                <ref bean="boss1"/>
+                <ref bean="boss2"/>
+                <ref bean="boss3"/>
+            </list>
+        </property>
+    </bean>
+</beans>

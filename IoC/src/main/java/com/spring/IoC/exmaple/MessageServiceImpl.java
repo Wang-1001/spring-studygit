@@ -1,5 +1,7 @@
-package com.spring.IoC;
+package com.spring.IoC.exmaple;
 
+
+import com.spring.IoC.exmaple.MessageService;
 
 public class MessageServiceImpl implements MessageService {
 
