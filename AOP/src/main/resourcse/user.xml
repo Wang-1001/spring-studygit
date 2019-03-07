@@ -2,18 +2,18 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
-<!--配置一个Hello的bean，等同于Hello hello = new H-->
-<bean id="hello" class="com.spring.HelloImpl"/>
-<!---->
+    <!--配置一个Hello的bean，等同于Hello hello = new H-->
+    <bean id="userdao" class="com.spring.UserDaoImpl"/>
+    <!---->
 
-<bean id="myBeforeAdvice" class="com.spring.MyBeforeAdvice"/>
+    <bean id="advice" class="com.spring.BeforeAdvice"/>
 
-<aop:config>
-    <aop:aspect id="before" ref="myBeforeAdvice">
-        <aop:pointcut id="myPoinCut" expression="execution(* com.spring.*.*(..))"/>
-        <aop:before method="beforeMethod" pointcut-ref="myPoinCut"/>
+    <aop:config>
+        <aop:aspect id="before" ref="advice">
+            <aop:pointcut id="myPointCut" expression="execution(* com.spring.*.*(..))"/>
+            <aop:before method="beforeAdvice" pointcut-ref="myPointCut"/>
 
-    </aop:aspect>
+        </aop:aspect>
 
-</aop:config>
+    </aop:config>
 </beans>

@@ -1,7 +1,7 @@
 package com.spring;
 
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+        import org.springframework.context.ApplicationContext;
+        import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class HelloAPP {
     public static void main(String[] args) {
