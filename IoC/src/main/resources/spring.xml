@@ -3,27 +3,27 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     <!--定义 bean-->
-        <bean id="messageServiceImpl" class="com.spring.IoC.exmaple.MessageServiceImpl">
+        <bean id="messageServiceImpl" class="com.spring.quickstart.exmaple.MessageServiceImpl">
             <constructor-arg name="username" value="Way Lau"/>
             <constructor-arg name="age" value="30"/>
         </bean>
-        <bean id="messagePrinter" class="com.spring.IoC.exmaple.MessagePrinter">
+        <bean id="messagePrinter" class="com.spring.quickstart.exmaple.MessagePrinter">
             <constructor-arg name="service" ref="messageServiceImpl"/>
         </bean>
 
 
    <!-- 配置一個Ma的bean-->
-    <bean id="max" class="com.spring.IoC.work.Max">
+    <bean id="max" class="com.spring.quickstart.work.Max">
         <constructor-arg name="a" value="5"/>
         <constructor-arg name="b" value="3"/>
     </bean>
 
-    <bean id="user" class="com.spring.IoC.work.User">
+    <bean id="user" class="com.spring.quickstart.work.User">
         <constructor-arg name="account" value="admin"/>
         <constructor-arg name="password" value="111"/>
     </bean>
 
-    <bean id="userlogin" class="com.spring.IoC.work.UserLogin">
+    <bean id="userlogin" class="com.spring.quickstart.work.UserLogin">
         <constructor-arg name="user" ref="user"/>
     </bean>
 
