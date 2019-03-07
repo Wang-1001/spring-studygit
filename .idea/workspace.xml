@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="159b72e5-38b4-43cb-879d-4548e9df2171" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AOP/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/queststart/target/" />
@@ -68,8 +67,8 @@
         <entry file="file://$PROJECT_DIR$/AOP/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="4" selection-start-column="4" selection-end-column="4" />
+              <first_editor relative-caret-position="32">
+                <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
               </first_editor>
               <second_editor />
             </state>
@@ -214,7 +213,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551925605469" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551925764125" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -356,7 +355,7 @@
       <workItem from="1551685290804" duration="8841000" />
       <workItem from="1551698611061" duration="2380000" />
       <workItem from="1551916190524" duration="997000" />
-      <workItem from="1551919099115" duration="6439000" />
+      <workItem from="1551919099115" duration="6694000" />
     </task>
     <task id="LOCAL-00001" summary="commt aop module">
       <created>1551924785129</created>
@@ -365,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1551924785130</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commt Sprign">
+      <created>1551925738559</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551925738559</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -395,7 +401,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40980000" />
+    <option name="totallyTimeSpent" value="41235000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -472,7 +478,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commt aop module" />
-    <option name="LAST_COMMIT_MESSAGE" value="commt aop module" />
+    <MESSAGE value="commt Sprign" />
+    <option name="LAST_COMMIT_MESSAGE" value="commt Sprign" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/quickstart/src/main/java/com/spring/hello/Phone.java" />
@@ -871,8 +878,8 @@
     <entry file="file://$PROJECT_DIR$/AOP/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="4" selection-start-column="4" selection-end-column="4" />
+          <first_editor relative-caret-position="32">
+            <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
           </first_editor>
           <second_editor />
         </state>
