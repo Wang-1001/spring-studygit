@@ -3,17 +3,24 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
 <!--配置一个Hello的bean，等同于Hello hello = new H-->
-<bean id="hello" class="com.spring.HelloImpl"/>
-<!---->
 
+
+<bean id="hello" class="com.spring.HelloImpl"/>
 <bean id="myBeforeAdvice" class="com.spring.MyBeforeAdvice"/>
 
 <aop:config>
     <aop:aspect id="before" ref="myBeforeAdvice">
         <aop:pointcut id="myPoinCut" expression="execution(* com.spring.*.*(..))"/>
         <aop:before method="beforeMethod" pointcut-ref="myPoinCut"/>
-
     </aop:aspect>
-
 </aop:config>
+
+    <aop:aspectj-autoproxy/>
+    <bean id="tiger" class="com.spring.Tiger"/>
+    <bean id="fighte" class="com.spring.Fighter"/>
+
+
+
+
+
 </beans>

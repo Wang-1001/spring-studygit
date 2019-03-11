@@ -10,5 +10,4 @@ public class HelloAPP {
         System.out.println(hello.hello());
     }
 
-
 }

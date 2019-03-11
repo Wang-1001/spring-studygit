@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 public class MyBeforeAdvice {
     private static final Logger logger = LoggerFactory.getLogger(MyBeforeAdvice.class);
     public void beforeMethod(){
-        logger.debug("This is wwww");
-        //System.out.println("This is a before method");
+        logger.debug("This is a before method...");
+       /* System.out.println("This is a before method");*/
     }
 }
