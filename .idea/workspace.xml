@@ -5,28 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="159b72e5-38b4-43cb-879d-4548e9df2171" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_4_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_zxing_core_3_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AOP/src/main/java/com/spring/Fighter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AOP/src/main/java/com/spring/FighterApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AOP/src/main/java/com/spring/ImageCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AOP/src/main/java/com/spring/ImageCopyApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AOP/src/main/java/com/spring/ImageHandIer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AOP/src/main/java/com/spring/QrCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AOP/src/main/java/com/spring/Tiger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AOP/src/main/resourcse/Image.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_47.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_4_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ORM/ORM.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ORM/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ORM/src/main/java/com/spring/dao/BaseDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ORM/src/main/java/com/spring/dao/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ORM/src/main/java/com/spring/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ORM/src/main/java/com/spring/service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ORM/src/main/java/com/spring/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ORM/src/main/resourcse/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ORM/src/main/resourcse/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ORM/src/main/resourcse/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ORM/src/main/resourcse/spring_mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ORM/src/test/java/com/spring/service/Impl/UserServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AOP/AOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AOP/AOP.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AOP/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AOP/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AOP/src/main/java/com/spring/HelloAPP.java" beforeDir="false" afterPath="$PROJECT_DIR$/AOP/src/main/java/com/spring/HelloAPP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AOP/src/main/java/com/spring/MyBeforeAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/AOP/src/main/java/com/spring/MyBeforeAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AOP/src/main/resourcse/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AOP/src/main/resourcse/bean.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/my_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/my_log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AOP/src/main/java/com/spring/QrCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/AOP/src/main/java/com/spring/QrCode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/queststart/target/" />
     <ignored path="$PROJECT_DIR$/IoC/target/" />
     <ignored path="$PROJECT_DIR$/quickstart/target/" />
     <ignored path="$PROJECT_DIR$/AOP/target/" />
+    <ignored path="$PROJECT_DIR$/ORM/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,10 +62,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AOP/src/main/java/com/spring/QrCode.java">
+        <entry file="file://$PROJECT_DIR$/ORM/src/test/java/com/spring/service/Impl/UserServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="143">
+              <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,10 +74,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AOP/pom.xml">
+        <entry file="file://$PROJECT_DIR$/ORM/src/main/resourcse/spring_mybatis.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="96" column="8" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
+            <state relative-caret-position="256">
+              <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ORM/src/main/java/com/spring/service/Impl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#545#546#0" expanded="true" />
+                <element signature="e#588#589#0" expanded="true" />
+                <element signature="e#640#641#0" expanded="true" />
+                <element signature="e#693#694#0" expanded="true" />
+                <element signature="e#747#748#0" expanded="true" />
+                <element signature="e#802#803#0" expanded="true" />
+                <element signature="e#852#853#0" expanded="true" />
+                <element signature="e#905#906#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ORM/src/main/java/com/spring/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,9 +120,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
+        <option value="Class" />
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
       </list>
     </option>
   </component>
@@ -88,18 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/quickstart/pom.xml" />
-        <option value="$PROJECT_DIR$/quickstart/src/main/java/com/spring/xml/HelloWorldApp.java" />
-        <option value="$PROJECT_DIR$/quickstart/src/main/java/com/spring/quickstart/xml/HelloWorldApp.java" />
-        <option value="$PROJECT_DIR$/quickstart/src/main/java/com/spring/quickstart/xml/annotation/Phone.java" />
-        <option value="$PROJECT_DIR$/IoC/src/main/java/com/spring/IoC/MessageService.java" />
-        <option value="$PROJECT_DIR$/IoC/src/main/java/com/spring/IoC/MessageServiceImpl.java" />
-        <option value="$PROJECT_DIR$/IoC/src/main/java/com/spring/IoC/MessagePrinter.java" />
-        <option value="$PROJECT_DIR$/IoC/src/main/java/com/spring/IoC/Application.java" />
-        <option value="$PROJECT_DIR$/IoC/src/main/java/com/spring/IoC/exmaple/MessagePrinter.java" />
-        <option value="$PROJECT_DIR$/IoC/src/main/java/com/spring/IoC/work/Car.java" />
-        <option value="$PROJECT_DIR$/IoC/src/main/java/com/spring/IoC/work/Boss.java" />
-        <option value="$PROJECT_DIR$/IoC/src/main/java/com/spring/IoC/exmaple/Application.java" />
         <option value="$PROJECT_DIR$/IoC/src/main/resources/work.xml" />
         <option value="$PROJECT_DIR$/IoC/src/main/java/com/spring/IoC/work/Max.java" />
         <option value="$PROJECT_DIR$/IoC/src/main/java/com/spring/IoC/work/MeetingApp.java" />
@@ -139,6 +171,18 @@
         <option value="$PROJECT_DIR$/AOP/src/main/java/com/spring/two.java" />
         <option value="$PROJECT_DIR$/AOP/pom.xml" />
         <option value="$PROJECT_DIR$/AOP/src/main/java/com/spring/QrCode.java" />
+        <option value="$PROJECT_DIR$/ORM/src/main/resourcse/bean.xml" />
+        <option value="$PROJECT_DIR$/ORM/src/main/java/com/ORM/dao/baseDao.java" />
+        <option value="$PROJECT_DIR$/ORM/src/main/java/com/ORM/dao/BaseDAO.java" />
+        <option value="$PROJECT_DIR$/ORM/pom.xml" />
+        <option value="$PROJECT_DIR$/ORM/src/main/java/com/ORM/entity/User.java" />
+        <option value="$PROJECT_DIR$/ORM/src/main/java/com/ORM/dao/UserDAO.java" />
+        <option value="$PROJECT_DIR$/ORM/src/test/java/com/ORM/service/Impl/UserServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/ORM/src/main/java/com/ORM/service/Impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ORM/src/main/java/com/ORM/service/UserService.java" />
+        <option value="$PROJECT_DIR$/ORM/src/main/resourcse/spring_mybatis.xml" />
+        <option value="$PROJECT_DIR$/ORM/src/main/java/com/spring/service/Impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ORM/src/test/java/com/spring/service/Impl/UserServiceImplTest.java" />
       </list>
     </option>
   </component>
@@ -163,10 +207,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-284" />
-    <option name="y" value="60" />
+    <option name="x" value="455" />
+    <option name="y" value="52" />
     <option name="width" value="1020" />
-    <option name="height" value="790" />
+    <option name="height" value="755" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -177,35 +221,34 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="spring-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="ORM" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="ORM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="ORM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="ORM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="ORM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -213,21 +256,89 @@
             </path>
             <path>
               <item name="spring-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="ORM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ORM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ORM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ORM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="Impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ORM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resourcse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ORM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ORM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ORM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ORM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="Impl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552273957094" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552292629674" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -237,25 +348,27 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.ORM.service.Impl" />
       <recent name="com.spring" />
       <recent name="com.spring.IoC.work" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\spring-study\ORM\src\main\resourcse" />
       <recent name="D:\spring-study\quickstart\src\main" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\spring-study\ORM\src\main\resourcse" />
       <recent name="D:\spring-study\AOP\src\main\resourcse" />
       <recent name="D:\spring-study\IoC\src\main\resources" />
       <recent name="D:\spring-study\quickstart\src\main\java\com\spring\quickstart\xml" />
       <recent name="D:\spring-study\quickstart\src\main\resources" />
-      <recent name="D:\spring-study\quickstart\src\main\java\com\spring\xml" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -270,79 +383,94 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QrCode">
-    <configuration name="FighterApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spring.FighterApp" />
-      <module name="AOP" />
+  <component name="RunManager" selected="JUnit.UserServiceImplTest.getUser">
+    <configuration name="UserServiceImplTest.deleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ORM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring.*" />
+          <option name="PATTERN" value="com.spring.service.Impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.spring.service.Impl" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.service.Impl.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="deleteUser" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloAPP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spring.HelloAPP" />
-      <module name="AOP" />
+    <configuration name="UserServiceImplTest.getUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ORM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring.*" />
+          <option name="PATTERN" value="com.spring.service.Impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.spring.service.Impl" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.service.Impl.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="getUser" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImageCopyApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spring.ImageCopyApp" />
-      <module name="AOP" />
+    <configuration name="UserServiceImplTest.insertUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ORM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring.*" />
+          <option name="PATTERN" value="com.spring.service.Impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.spring.service.Impl" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.service.Impl.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="insertUser" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spring.MoveApp" />
-      <module name="AOP" />
+    <configuration name="UserServiceImplTest.selectUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ORM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring.*" />
+          <option name="PATTERN" value="com.spring.service.Impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.spring.service.Impl" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.service.Impl.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="selectUsers" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QrCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spring.QrCode" />
-      <module name="AOP" />
+    <configuration name="UserServiceImplTest.updateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ORM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring.*" />
+          <option name="PATTERN" value="com.spring.service.Impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.spring.service.Impl" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.service.Impl.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="updateUser" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QrCode" />
-        <item itemvalue="Application.ImageCopyApp" />
-        <item itemvalue="Application.FighterApp" />
-        <item itemvalue="Application.MoveApp" />
-        <item itemvalue="Application.HelloAPP" />
+        <item itemvalue="JUnit.UserServiceImplTest.getUser" />
+        <item itemvalue="JUnit.UserServiceImplTest.selectUsers" />
+        <item itemvalue="JUnit.UserServiceImplTest.updateUser" />
+        <item itemvalue="JUnit.UserServiceImplTest.deleteUser" />
+        <item itemvalue="JUnit.UserServiceImplTest.insertUser" />
       </list>
     </recent_temporary>
   </component>
@@ -370,7 +498,9 @@
       <workItem from="1551959287558" duration="429000" />
       <workItem from="1552013095607" duration="5000" />
       <workItem from="1552233118696" duration="1602000" />
-      <workItem from="1552261862234" duration="11886000" />
+      <workItem from="1552261862234" duration="16604000" />
+      <workItem from="1552283607389" duration="4708000" />
+      <workItem from="1552290004785" duration="2582000" />
     </task>
     <task id="LOCAL-00001" summary="commt aop module">
       <created>1551924785129</created>
@@ -407,43 +537,50 @@
       <option name="project" value="LOCAL" />
       <updated>1551959685930</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commit AOP Tiger">
+      <created>1552274147718</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1552274147719</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserDaoTest_insert - 2019.03.07 at 13h 09m 45s.xml">
-      <configuration name="UserDaoTest.insert" configurationId="JUnit" />
+    <history-entry file="UserServiceImplTest_insertUser - 2019.03.11 at 16h 14m 48s.xml">
+      <configuration name="UserServiceImplTest.insertUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest_insert - 2019.03.07 at 13h 16m 27s.xml">
-      <configuration name="UserDaoTest.insert" configurationId="JUnit" />
+    <history-entry file="UserServiceImplTest_insertUser - 2019.03.11 at 16h 15m 42s.xml">
+      <configuration name="UserServiceImplTest.insertUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest_insert - 2019.03.07 at 13h 22m 20s.xml">
-      <configuration name="UserDaoTest.insert" configurationId="JUnit" />
+    <history-entry file="UserServiceImplTest_deleteUser - 2019.03.11 at 16h 16m 59s.xml">
+      <configuration name="UserServiceImplTest.deleteUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest_insert - 2019.03.07 at 13h 23m 29s.xml">
-      <configuration name="UserDaoTest.insert" configurationId="JUnit" />
+    <history-entry file="UserServiceImplTest_updateUser - 2019.03.11 at 16h 17m 32s.xml">
+      <configuration name="UserServiceImplTest.updateUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest_insert - 2019.03.07 at 13h 24m 43s.xml">
-      <configuration name="UserDaoTest.insert" configurationId="JUnit" />
+    <history-entry file="UserServiceImplTest_getUser - 2019.03.11 at 16h 18m 14s.xml">
+      <configuration name="UserServiceImplTest.getUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest_insert - 2019.03.07 at 15h 35m 47s.xml">
-      <configuration name="UserDaoTest.insert" configurationId="JUnit" />
+    <history-entry file="UserServiceImplTest_deleteUser - 2019.03.11 at 16h 20m 11s.xml">
+      <configuration name="UserServiceImplTest.deleteUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest_insert - 2019.03.07 at 15h 37m 30s.xml">
-      <configuration name="UserDaoTest.insert" configurationId="JUnit" />
+    <history-entry file="UserServiceImplTest_updateUser - 2019.03.11 at 16h 21m 23s.xml">
+      <configuration name="UserServiceImplTest.updateUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest_insert - 2019.03.07 at 16h 19m 04s.xml">
-      <configuration name="UserDaoTest.insert" configurationId="JUnit" />
+    <history-entry file="UserServiceImplTest_getUser - 2019.03.11 at 16h 22m 12s.xml">
+      <configuration name="UserServiceImplTest.getUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest_insert - 2019.03.07 at 16h 36m 40s.xml">
-      <configuration name="UserDaoTest.insert" configurationId="JUnit" />
+    <history-entry file="UserServiceImplTest_selectUsers - 2019.03.11 at 16h 22m 39s.xml">
+      <configuration name="UserServiceImplTest.selectUsers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest - 2019.03.07 at 16h 51m 58s.xml">
-      <configuration name="UserDaoTest" configurationId="JUnit" />
+    <history-entry file="UserServiceImplTest_getUser - 2019.03.11 at 16h 23m 15s.xml">
+      <configuration name="UserServiceImplTest.getUser" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69001000" />
+    <option name="totallyTimeSpent" value="81009000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -456,8 +593,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24262735" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17828418" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -467,15 +605,15 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.81671554" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41202345" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398827" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32964602" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.22434017" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.22434017" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.22787611" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.22727273" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32991204" />
       <window_info anchor="bottom" id="Spring" order="13" />
@@ -498,121 +636,10 @@
     <MESSAGE value="commt Sprign" />
     <MESSAGE value="commit UserDao" />
     <MESSAGE value="commit IoC and quickstart" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit IoC and quickstart" />
+    <MESSAGE value="commit AOP Tiger" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit AOP Tiger" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/IoC/src/main/java/com/spring/quickstart/exmaple/MessageServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../maven.jar/org/springframework/spring-beans/5.0.10.RELEASE/spring-beans-5.0.10.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="173" selection-start-line="173" selection-end-line="173" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../maven.jar/org/springframework/spring-context/5.0.10.RELEASE/spring-context-5.0.10.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="609" selection-start-line="609" selection-end-line="609" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IoC/src/main/java/com/spring/quickstart/exmaple/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#244#274#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IoC/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IoC/src/test/java/com/spring/quickstart/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IoC/src/main/java/com/spring/quickstart/work/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-          <folding>
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IoC/src/main/java/com/spring/quickstart/work/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IoC/src/main/java/com/spring/quickstart/work/UserLoginApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IoC/src/main/java/com/spring/quickstart/work/UserLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" lean-forward="true" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IoC/src/test/java/com/spring/quickstart/work/UserLoginAppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="22" column="1" lean-forward="true" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/IoC/src/main/java/com/spring/quickstart/work/MeetingApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -726,16 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="458" column="70" selection-start-line="458" selection-start-column="70" selection-end-line="458" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AOP/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="32">
-            <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -913,34 +930,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AOP/src/main/resourcse/bean.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AOP/src/main/resourcse/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AOP/src/main/resourcse/Image.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="8" column="61" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AOP/src/main/java/com/spring/ImageCopyApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -964,24 +957,144 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AOP/src/main/java/com/spring/two.java">
+    <entry file="file://$PROJECT_DIR$/AOP/src/main/java/com/spring/two.java" />
+    <entry file="file://$PROJECT_DIR$/AOP/src/main/resourcse/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AOP/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="96" column="8" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
+        <state relative-caret-position="48">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AOP/src/main/java/com/spring/QrCode.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="24" column="94" selection-start-line="24" selection-start-column="94" selection-end-line="24" selection-end-column="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ORM/ORM.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AOP/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="62" column="17" selection-start-line="57" selection-start-column="4" selection-end-line="62" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AOP/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="32">
+            <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ORM/src/main/resourcse/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AOP/src/main/resourcse/bean.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" selection-start-line="23" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ORM/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="144" selection-start-line="144" selection-end-line="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ORM/src/main/java/com/spring/dao/BaseDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ORM/src/main/java/com/spring/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AOP/src/main/java/com/spring/ImageCopyApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ORM/src/main/resourcse/bean.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ORM/src/main/java/com/spring/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ORM/src/main/java/com/spring/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ORM/src/main/resourcse/spring_mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ORM/src/main/java/com/spring/service/Impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ORM/src/test/java/com/spring/service/Impl/UserServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1005,7 +1118,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1040,12 +1153,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>queststart</last-edited>
+          <last-edited>ORM</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1065,6 +1177,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: cn.hutool:hutool-all:4.4.5</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

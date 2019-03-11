@@ -94,7 +94,6 @@
       <version>${hutool.version}</version>
     </dependency>
 
-EEEEEEEE
     <dependency>
       <groupId>com.google.zxing</groupId>
       <artifactId>core</artifactId>
