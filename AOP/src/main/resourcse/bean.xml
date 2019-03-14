@@ -15,7 +15,10 @@
     </aop:aspect>
 </aop:config>
 
+
+    <!--启动aspectj支持-->
     <aop:aspectj-autoproxy/>
+    <!--配置bean-->
     <bean id="tiger" class="com.spring.Tiger"/>
     <bean id="fighte" class="com.spring.Fighter"/>
 

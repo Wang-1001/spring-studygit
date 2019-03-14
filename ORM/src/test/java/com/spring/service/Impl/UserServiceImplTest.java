@@ -22,9 +22,9 @@ public class UserServiceImplTest {
     @Test
     public void insertUser(){
         User user = new User();
-        user.setAccount("test");
-        user.setPassword("11111");
-        user.setCredits(9992);
+        user.setAccount("insert");
+        user.setPassword("12345");
+        user.setCredits(54321);
         int n = userService.insertUser(user);
         assertEquals(1, n);
 
@@ -32,15 +32,15 @@ public class UserServiceImplTest {
 
     @Test
     public void deleteUser() {
-        int n = userService.deleteUser(1);
+        int n = userService.deleteUser(5);
         assertEquals(1,n);
     }
 
     @Test
     public void updateUser() {
         User user = userService.getUser(2);
-        user.setPassword("000");
-        user.setCredits(134561);
+        user.setPassword("222");
+        user.setCredits(22222);
         int n = userService.updateUser(user);
         assertEquals(1, n);
     }

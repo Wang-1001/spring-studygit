@@ -2118,3 +2118,14 @@
 2019-03-11 10:36:02  INFO ImageCopy:31 - 开始给图片添加水印...
 2019-03-11 10:36:03  INFO ImageCopy:13 - 开始将图片从D盘复制到E盘....
 2019-03-11 10:36:03  INFO ImageCopy:54 - 开始将图片转成黑白....
+2019-03-12 23:23:24 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@41975e01
+2019-03-12 23:23:25 DEBUG XmlBeanDefinitionReader:395 - Loaded 7 bean definitions from class path resource [bean.xml]
+2019-03-12 23:23:25 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-12 23:23:25 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-12 23:23:25 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-12 23:23:26 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Fighter.foundBefore()
+2019-03-12 23:23:26 DEBUG ReflectiveAspectJAdvisorFactory:243 - Found AspectJ method: public void com.spring.Fighter.foundAfter()
+2019-03-12 23:23:26 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-12 23:23:26 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'tiger'
+2019-03-12 23:23:26 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'fighte'
+2019-03-12 23:23:26 DEBUG MyBeforeAdvice:12 - This is a before method...
